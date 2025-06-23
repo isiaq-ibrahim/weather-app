@@ -4,6 +4,19 @@ As part of my ongoing 20-day challenge to build one Python project a day, I’m 
 
 If you're just getting started with Python and want to build something useful and fun, a weather app is a great mini-project. In this post, I’ll walk you through how I built a simple weather app that fetches real-time weather data using web scraping from Google search results. No API keys. No complicated setup. Just Python and a few lines of code!
 
+## 📌 Features
+
+- Retrieves real-time weather data
+- Lightweight and fast
+- Uses Google search instead of relying on weather APIs
+- Demonstrates the basics of web scraping
+
+## 🧰 Technologies Used
+
+- **Python 3**
+- [`requests`](https://pypi.org/project/requests/): To send HTTP requests
+- [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/): To parse and extract data from HTML
+
 ## 📦 What You'll Need
 Before we dive in, make sure you have the following Python libraries installed:
 
@@ -102,10 +115,10 @@ You’ve just built a simple weather app using Python, requests, and BeautifulSo
 
 
 
-## ▶️ Demo Video
+### ▶️ Demo Video
 
 
-## ⚠️ A Word of Caution
+### ⚠️ A Word of Caution
 Google’s page structure can change at any time, and this might break your script. This method is good for quick experiments but not recommended for production apps.
 
 For more stable and legal use cases, consider using a free weather API like:
@@ -113,27 +126,10 @@ For more stable and legal use cases, consider using a free weather API like:
 - WeatherAPI
 - Weatherstack
 
-
-
-
-## 📌 Features
-
-- Retrieves real-time weather data
-- Lightweight and fast
-- Uses Google search instead of relying on weather APIs
-- Demonstrates the basics of web scraping
-
-## 🧰 Technologies Used
-
-- **Python 3**
-- [`requests`](https://pypi.org/project/requests/): To send HTTP requests
-- [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/): To parse and extract data from HTML
-
-
-#### 🙌 Contributing
+### 🙌 Contributing
 
 Feel free to fork the repository, submit pull requests, or suggest improvements!
 
-#### 📄 License
+### 📄 License
 
 This project is open source and available under the MIT License.
